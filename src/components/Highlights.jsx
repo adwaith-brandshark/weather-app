@@ -29,7 +29,7 @@ function Highlights({ stats }) {
         </div>
       ) : null}
 
-      {stats.title == "Humidity" ? (
+      {stats.title === "Humidity" ? (
         <div className="w-full mt-4 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
           <div
             className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
